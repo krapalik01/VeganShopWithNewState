@@ -8,5 +8,6 @@ export default defineConfig({
     setupFiles: './src/setupTests.ts', // путь к твоему setup-файлу
     globals: true, // чтобы не импортировать expect в каждом тесте
   },
+   base: '/VeganShopWithNewState/',
   plugins: [react()],
 });
