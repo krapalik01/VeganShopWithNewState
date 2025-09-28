@@ -5,8 +5,8 @@
   "type": "module",
   "homepage": "https://krapalik01.github.io/VeganShopWithNewState/",
   "scripts": {
-      "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "test": "vitest",
